@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                        <EditText
+                            android:id="@+id/editTextRouter"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:inputType="textPersonName"
+                            android:hint="Router IP (10.10.10.10)" />
+
+                        <TextView
+                            android:id="@+id/textView8"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="0.14"
+                            android:gravity="center"
+                            android:text="Comandos basicos"
+                            android:textAlignment="center"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="24sp"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/buttonPlantilla"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:background="@drawable/redesfondo3"
+                            android:text="Plantilla basica"
+                            android:textColor="@android:color/white" />
+
+
+                        <TextView
+                            android:id="@+id/textView4"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="0.14"
+                            android:gravity="center"
+                            android:text="Configuraccones"
+                            android:textAlignment="center"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="24sp"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/buttonRuta"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:background="@drawable/redesfondo3"
+                            android:text="Ruta estatica"
+                            android:textColor="@android:color/white" />
+
+                        <Button
+                            android:id="@+id/buttonLoopback"
+                            android:layout_width="match_parent"
+                            android:layout_height="37dp"
+                            android:layout_weight="0.20"
+                            android:background="@drawable/redesfondo3"
+                            android:text="Crear Loopback"
+                            android:textColor="@android:color/white" />
+
+                        <Button
+                            android:id="@+id/buttonShut"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:background="@drawable/redesfondo3"
+                            android:text="Shutdown"
+                            android:textColor="@android:color/white" />
+
+                        <Button
+                            android:id="@+id/buttonNoShut"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:background="@drawable/redesfondo3"
+                            android:text="No shutdown"
+                            android:textColor="@android:color/white" />
+
+                        <Button
+                            android:id="@+id/buttonPing"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:background="@drawable/redesfondo3"
+                            android:text="Ping"
+                            android:textColor="@android:color/white" />
+
+                        <TextView
+                            android:id="@+id/textView5"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="0.42"
+                            android:gravity="center"
+                            android:text="Reportes"
+                            android:textAlignment="center"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="24sp"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/buttonRespaldo"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:background="@drawable/redesfondo3"
+                            android:text="Show Running-config"
+                            android:textColor="@android:color/white" />
+
+                        <Button
+                            android:id="@+id/buttonProcess"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:background="@drawable/redesfondo3"
+                            android:text="Process CPU"
+                            android:textColor="@android:color/white" />
+
+                        <Button
+                            android:id="@+id/buttonInterfaces"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:background="@drawable/redesfondo3"
+                            android:text="show Interfaces"
+                            android:textColor="@android:color/white" />
+
+                        <Button
+                            android:id="@+id/buttonRoute"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:background="@drawable/redesfondo3"
+                            android:text="Route Table"
+                            android:textColor="@android:color/white" />
+
+                </LinearLayout>
+
+        </ScrollView>
+
+</LinearLayout>
